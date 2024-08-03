@@ -1,0 +1,48 @@
+:root{
+  --color-background: #ffffff;
+  --color-background-light: #e2ecf9;
+  --color-background-primary: #d1d8ee;
+/*  */
+  --color-border: #d7d4de;
+  --color-border-primary:#6186ff;
+
+  --color-border-hover: #ebeaf4;
+  
+  --color-text: #626066;
+  --color-text-b: #303133;
+  --color-text-hover: #929099;
+  /* --color-text-primary:#7d4af4; */
+  /* #7571c7 */
+  --color-text-primary:#826fe2;
+  --color-white:#ffffff;
+  --el-color-primary: rgb(0, 107, 128);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+body {
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:AliMedium;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family:Arbitron;
+  src:url('@/assets/fonts/orbitron-black.ttf')
+}
+
+

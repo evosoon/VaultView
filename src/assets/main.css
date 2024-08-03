@@ -1,0 +1,46 @@
+@import './base.css';
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex{
+  display: flex;
+}
+
+.color{
+  color: var(--color-text)
+}
+.pointer{
+  cursor: pointer;
+  user-select: none;
+}
+
+.backgroundColor{
+  background-color: var(--color-background);
+}
+
+.nowrap {
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.test{
+  background-color:red;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+   height: 4px;
+}
+::-webkit-scrollbar-button{
+  height: 0;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #e6e8ed;
+  border-radius: 3px;
+
+}
